@@ -7,4 +7,4 @@ docker build --no-cache -t resume-builder .
 
 docker run --name resume-container resume-builder
 
-docker cp resume-container:/resume/main.pdf .
+docker cp resume-container:/resume/CV/main.pdf .
